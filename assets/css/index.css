@@ -1,0 +1,1085 @@
+@font-face {
+  font-family: "DIN Pro";
+  src: url("../fonts/DINPro_0.otf");
+}
+
+@font-face {
+  font-family: "Rezpector";
+  src: url("../fonts/Rezpector.otf");
+}
+
+html {
+  background-color: #ffffff !important;
+}
+
+.hero-slider .slides li:before {
+  background-color: #333333;
+  opacity: 0.4;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0px;
+}
+
+/*********************/
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px;
+}
+
+.item p {
+  text-align: center;
+}
+
+.ui-accordion .ui-accordion-icons {
+  display: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.ultimos {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.speakers {
+  width: 100%;
+  height: 98%;
+}
+
+.speakers h2 {
+  justify-content: center;
+  font-family: "din pro";
+  font-size: 500%;
+  color: #ffb416c4;
+  width: auto;
+  height: auto;
+}
+
+h2.last {
+  font-family: "Rezpector";
+  margin-left: 26px;
+}
+.speakers p {
+  text-align: center;
+  font-size: 25px;
+  color: grey;
+  font-family: "din pro";
+  align-content: center;
+  flex-grow: 1;
+  line-height: 1em;
+}
+
+.galeria {
+  width: 100%;
+  padding: 30px 0 87px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.spk {
+  width: 400px;
+  height: 380px;
+  margin: 30px;
+  flex-shrink: 1;
+}
+
+.pie1 {
+  color: #fff;
+  background-color: rgba(255, 127, 47, 0.8);
+  text-align: center;
+  width: 100%;
+  height: 30%;
+  position: relative;
+  top: 70%;
+  clip-path: polygon(0 27%, 100% 5%, 100% 100%, 0% 100%);
+  display: grid;
+  padding: 28px 0;
+}
+
+.pie2 {
+  color: #fff;
+  background-color: rgba(255, 127, 47, 0.8);
+  text-align: center;
+  width: 100%;
+  height: 30%;
+  position: relative;
+  top: 70%;
+  clip-path: polygon(0 5%, 100% 26%, 100% 100%, 0% 100%);
+  display: grid;
+  padding: 28px 0;
+}
+
+.omar {
+  background-image: url(../img/omar.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.emilio {
+  background-image: url(../img/emilio.jpg);
+  background-size: cover;
+}
+
+.regil {
+  background-image: url(../img/regil.jpg);
+  background-size: cover;
+}
+
+.daniel {
+  background-image: url(../img/daniel.jpg);
+  background-size: cover;
+}
+.brenda {
+  background-image: url(../img/brenda.jpg);
+  background-size: cover;
+}
+.who {
+  background-image: url(../img/nuevo.jpg);
+  background-size: cover;
+}
+.lozano {
+  background-image: url(../img/lozano.png);
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+div#up {
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+  margin: 3em;
+}
+section#etapas p#te-1 {
+  text-align: left;
+  font: Bold 117px/58px DIN Pro;
+  letter-spacing: 0;
+  color: #ffb416;
+  opacity: 1;
+}
+section#etapas p#te-2 {
+  margin-left: 72px;
+  text-align: left;
+  font: 108px Rezpector;
+  letter-spacing: 0;
+  color: #ff7f2fe6;
+  opacity: 0.75;
+}
+.etapa {
+  text-align: center;
+  font: Bold 29px/1em DIN Pro;
+  letter-spacing: 1.89px;
+  text-transform: uppercase;
+  margin-top: 0.7em;
+}
+
+.etapa-p {
+  text-align: center;
+  font: Bold 17px/3em DIN Pro;
+  letter-spacing: 1.75px;
+  color: #757575;
+  text-transform: uppercase;
+  margin-top: 1.9em;
+}
+
+select#paises.form-control {
+  background-color: white;
+}
+
+.bton {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  font: Bold 23px/29px DIN Pro;
+  color: white;
+}
+
+.bton a {
+  color: white;
+}
+
+.bton a:hover {
+  color: #ff7f2f;
+}
+.rosa {
+  background-color: #ff0072;
+  width: 100%;
+}
+
+.rosa2 {
+  /*background-color: #B5008F;*/
+  width: 100%;
+}
+
+.azul {
+  /* background-color: #00ACDA; */
+  width: 100%;
+}
+
+.bton rosa:hover {
+  background-color: #ff7f2f;
+}
+
+.bton rosa:visited {
+  background-color: #fff;
+}
+
+.mb {
+  margin-bottom: 34px !important;
+}
+/*******************/
+section#hoteles img {
+  width: 28em;
+  padding: 2em;
+  margin-top: 2em;
+}
+section#hoteles {
+  display: block ruby;
+}
+.imgfooter {
+  justify-content: center;
+  display: flex;
+}
+
+div#texto_hotel {
+  opacity: 1;
+  margin-top: 70px;
+}
+
+div#texto_hotel p#th-1 {
+  text-align: left;
+  font: Bold 108px/108px DIN Pro;
+  letter-spacing: 0;
+  color: #ffb416;
+  opacity: 0.75;
+}
+div#texto_hotel p#th-2 {
+  text-align: right;
+  font: 108px Rezpector;
+  letter-spacing: 0;
+  color: #ff7f2fe6;
+  opacity: 1;
+}
+
+section#millas div.row {
+  position: relative;
+}
+div#backgoup-millas {
+  z-index: 1;
+  height: 500px;
+  background: transparent url(../img/backgoup-millas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 0%;
+  right: 0%;
+}
+
+div#trapecio-millas {
+  z-index: 2;
+  width: 75%;
+  height: 550px;
+  background: transparent linear-gradient(to left, #ff7f2f 0%, #ffb416 100%) 10%
+    10% no-repeat padding-box;
+  top: 0;
+  left: 0;
+  content: "";
+  position: relative;
+  clip-path: polygon(0% 0%, 100% 0%, 60% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 60% 100%, 0% 100%);
+}
+
+div#parrafo-millas {
+  position: absolute;
+  z-index: 3;
+  width: 75%;
+  top: 40px;
+}
+
+div#parrafo-millas p {
+  text-align: left;
+  color: #ffffff;
+}
+div#parrafo-millas p.pm1 {
+  text-align: left;
+  font: bold 85px/89px Rezpector;
+  letter-spacing: 9.75px;
+}
+
+div#parrafo-millas p.pm2 {
+  text-align: left;
+  font: bold 41px/78px DIN Pro;
+  letter-spacing: -0.6px;
+}
+div#parrafo-millas p.pm3 {
+  text-align: center;
+  font: Condensed 80px/1px DIN;
+  letter-spacing: 0;
+  display: inline-block;
+}
+div#parrafo-millas p.pm4 {
+  text-align: left;
+  font: Bold 51px/86px DIN Pro;
+  letter-spacing: -0.73px;
+  display: inline-block;
+}
+div#parrafo-millas p.pm5 {
+  text-align: left;
+  font: bold 47px/68px DIN Pro;
+  letter-spacing: -2.48px;
+}
+div#parrafo-millas p.pm6 {
+  text-align: left;
+  font: bold 62px/68px Rezpector;
+  letter-spacing: 6.2px;
+}
+
+div#parrafo-millas button.base {
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
+}
+div#parrafo-millas button.base:hover {
+  color: #ff7f2f;
+  border-color: #ff7f2f;
+  background: white;
+}
+div#parrafo-millas button.base:visited {
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
+}
+
+/* awards */
+
+/* fin de awards */
+#awards {
+  background-image: url("../img/calificacion.png");
+  background-size: 95% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10%;
+  padding: 0px !important;
+}
+#awards h2 {
+  font-size: 400%;
+  font-weight: 600;
+  color: #ff7f2f;
+  align-self: flex-start;
+  margin-left: 5%;
+}
+#awards p {
+  width: auto;
+  align-self: flex-start;
+  margin: 0px 0px 0px 5%;
+  font-size: 18px;
+}
+#awards .calificacionesMovil {
+  display: none;
+}
+
+/* Continuar */
+
+#continuar {
+  background-image: url("../img/continuar.png");
+  height: 400px;
+  width: 100%;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#continuar h2 {
+  font-weight: 100 !important;
+}
+/* Fin de Continuar */
+
+/* Eventos */
+
+#eventos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+.eventoMobile {
+  display: none !important;
+}
+#eventos h2 {
+  font-size: 400%;
+  font-weight: 600;
+  color: #ff7f2f;
+}
+section#eventos .texto {
+  word-wrap: break-word;
+  width: 450px;
+  margin-left: 5%;
+  color: #777777 !important;
+}
+
+/************************/
+
+#agenda {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#agenda h2 {
+  font-family: "Rezpector";
+  font-size: 800%;
+  color: #ffb416;
+  margin-bottom: 0.2em;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+}
+
+.img {
+  align-content: 1;
+  align-items: stretch;
+}
+
+section#agenda .texto {
+  word-wrap: break-word;
+  width: 400px;
+  margin-left: 5%;
+}
+.texto p {
+  font-size: 30px !important;
+  line-height: 30px !important;
+}
+
+#agenda h2 {
+  font-size: 600%;
+}
+
+/************************/
+section#preguntas {
+  text-align: start;
+}
+
+section#preguntas div p.pregunta b {
+  border-radius: 30px;
+  background-color: #ff7f2f;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#preguntas div p.titulo {
+  text-align: center;
+  font: Bold 84px/42px DIN Pro;
+  letter-spacing: 0;
+  color: grey;
+  margin-bottom: 71px;
+}
+
+section#preguntas div p.pregunta {
+  font: Bold 20px/60px DIN Pro;
+  text-align: left;
+  letter-spacing: 0;
+  color: #ff7f2f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: unset;
+}
+section#preguntas div p.respuesta {
+  font: 20px/37px DIN Pro;
+  text-align: left;
+  letter-spacing: 0;
+  color: #606060;
+  opacity: 1;
+}
+
+.ftr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.footer img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.redes a {
+  flex-shrink: 1;
+  font-size: 100%;
+  text-align: center;
+  color: white;
+  margin: 0 10px;
+}
+.footer div {
+  flex-shrink: 1;
+  font-size: 118%;
+  text-align: center;
+  color: white;
+  margin: 5px 10px 0 4px;
+}
+.redes a:hover {
+  font-size: 120%;
+  color: #fff;
+}
+
+.redes a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* modal */
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 999;
+}
+
+.modal-fondo {
+  /* background-color: rgba(255, 127, 47, 0.7); */
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.modalLogin {
+  background: #fff;
+  border-radius: 5px;
+  color: rgb(51, 51, 51);
+  display: inline;
+  max-height: 600px;
+  max-width: 500px;
+  outline: none;
+  height: 70%;
+  width: 35%;
+}
+
+@media (max-width: 1136px) {
+  .modalLogin {
+    width: 55%;
+  }
+}
+@media (max-width: 992px) {
+  /* #miles {
+    background-repeat: no-repeat;
+    background-size: 200% 100% !important;
+    background-size: cover;
+  } */
+  .avance {
+    font-size: 300% !important;
+  }
+  .dibMiles2 {
+    display: block !important;
+  }
+  .dibMiles {
+    display: none;
+  }
+  .texto p {
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
+
+  #eventos h2 {
+    font-size: 400%;
+  }
+}
+@media (max-width: 767px) {
+  /* HOME */
+  #awards {
+    background-image: none;
+
+    height: auto;
+  }
+  #awards h2 {
+    font-size: 400%;
+    font-weight: 600;
+    color: #ff7f2f;
+    align-self: center;
+    text-align: center;
+  }
+  #awards p {
+    width: auto;
+    align-self: center;
+    font-size: 17px;
+  }
+  #awards .calificacionesMovil {
+    display: inline;
+  }
+
+  .texto p {
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+  #eventos h2 {
+    font-size: 350%;
+    text-align: center;
+  }
+  .eventoMobile {
+    display: flex !important;
+  }
+  .eventoMobile .texto {
+    margin-bottom: 20px;
+  }
+  .eventoDesktop {
+    display: none !important;
+  }
+
+  #continuar {
+    height: 300px;
+    background-size: 150% 100% !important;
+    background-position: 60% 0%;
+  }
+
+  /* Fin  del home */
+  #miles {
+    background-repeat: no-repeat;
+    background-image: url("../img/bgMovil.png") !important;
+    /* background-size: 200% 100% !important;
+    background-size: cover;
+    background-position: right !important; */
+  }
+  #dibName {
+    font-size: 130% !important;
+  }
+  .avance {
+    font-size: 250% !important;
+  }
+  .modalLogin {
+    width: 75%;
+  }
+  .distributorContainer {
+    top: 25% !important;
+  }
+  .counterMiles {
+    /* width: 50% !important; */
+  }
+  .gifMiles {
+    display: none;
+  }
+  .FooterMilesContainer {
+    padding-left: 5px !important;
+  }
+  .FooterMilesContainer a {
+    font-size: 120% !important;
+  }
+  .FooterIcons {
+    margin: auto;
+    width: 34% !important;
+  }
+  .FooterIcons img {
+    padding: 5px 10px !important;
+    width: 41px !important;
+  }
+  .dibMiles2 p {
+    font-size: 15px !important;
+  }
+  .cerrarSesionMovil {
+    display: block !important;
+  }
+  .MilesLogout {
+    display: none;
+  }
+}
+/* @media (max-width: 420px) {
+  #awards h2 {
+    font-size: 300%;
+    font-weight: 400;
+    color: #ff7f2f;
+    align-self: center;
+    text-align: center;
+  }
+  #awards p {
+    width: auto;
+    align-self: center;
+    font-size: 15px;
+  }
+} */
+@media (max-width: 392px) {
+  .modalLogin {
+    width: 85%;
+  }
+}
+@media (max-width: 323px) {
+  .modalLogin {
+    width: 95%;
+  }
+}
+@media (max-width: 500px) {
+  .MetaIme {
+    width: 80% !important;
+  }
+}
+
+.modalLogin h2 {
+  font-family: "Rezpector";
+  font-size: 450%;
+  text-align: center;
+  color: #ffb416;
+  margin-bottom: 0.2em;
+}
+
+/* Modal boton  */
+
+.btn-primary {
+  color: #fff;
+  background-color: #ff7f2f;
+  border-color: #ff7f2f;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ff7f2f;
+  border-color: #ff7f2f;
+}
+.btn-primary:focus {
+  color: #fff;
+  background-color: #ff7f2f;
+  border-color: #ff7f2f;
+}
+.btn-primary:active {
+  color: #fff;
+  background-color: #ff7f2f !important;
+  border-color: #ff7f2f !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #ff7f2f !important;
+  border-color: #ff7f2f !important;
+}
+.btn-outline-primary:focus {
+  color: #ff7f2f;
+  border-color: #ff7f2f !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ff7f2f !important;
+}
+.btn-outline-primary {
+  margin: auto;
+  text-align: center !important;
+  color: #ff7f2f !important;
+  border-color: #ff7f2f !important;
+  width: 65% !important;
+}
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #d96b26 !important;
+  border-color: #d96b26 !important;
+}
+.btn-primary:focus {
+  color: #ff7f2f;
+  border-color: #ff7f2f !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ff7f2f !important;
+}
+.btn-primary {
+  margin: auto;
+  text-align: center !important;
+  color: white !important;
+  border-color: #ff7f2f !important;
+  width: 50% !important;
+  background-color: #ff7f2f !important;
+  border-radius: 25px !important;
+}
+.btn-continue {
+  text-align: center !important;
+  color: white !important;
+  border-color: #ff7f2f !important;
+  width: 20% !important;
+  background-color: #ff7f2f !important;
+  border-radius: 25px !important;
+}
+.btn-continue:hover {
+  color: #fff !important;
+  background-color: #d96b26 !important;
+  border-color: #d96b26 !important;
+}
+.btn-continue:focus {
+  color: #ff7f2f;
+  border-color: #ff7f2f !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ff7f2f !important;
+}
+
+/*************/
+
+.form-control:focus {
+  border-color: #ff7f2f !important;
+  box-shadow: 0 0 0 0.2rem #ff7f2fab !important;
+}
+
+/* modal login */
+
+.headerLogin {
+  background-image: url("../img/bkgLoginModal.png");
+  width: 100%;
+  height: 40%;
+  background-size: 100% 100%;
+  margin-bottom: 10px;
+}
+.modalLogin .form-control {
+  margin: auto;
+  width: 90%;
+}
+
+.headerLogin h1 {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  vertical-align: center;
+  font-size: 300%;
+  font-weight: 700;
+}
+/* miles */
+
+#miles {
+  background-image: url("../img/backgroundMiles.png");
+  height: 92vh;
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+.distributorContainer {
+  top: 20%;
+}
+.disInf {
+  height: 100%;
+}
+#dibName {
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 150%;
+  padding: 3px;
+}
+#dibName span {
+  background-color: #ef8a47 !important;
+  padding: 5px;
+}
+.avance {
+  font-weight: 800;
+  font-size: 400%;
+  text-align: center;
+  color: #fff;
+}
+.dibMiles {
+  height: 100%;
+}
+.dibMiles2 {
+  display: none;
+  height: 100%;
+  text-align: center;
+}
+.counterMiles {
+  font-size: 45px;
+  line-height: 80px;
+  display: inline-block;
+  margin-bottom: 17px;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.counterMiles span {
+  border: 5px solid #ff7f2f;
+  border-radius: 9px;
+}
+
+.dibMiles p {
+  color: white !important;
+  font-size: 20px;
+  text-align: center;
+}
+.dibMiles2 p {
+  color: white !important;
+  font-size: 20px;
+  text-align: center;
+}
+.Milesbases {
+  text-align: center;
+  font-size: 15px;
+  margin: auto;
+  color: white;
+}
+
+.FooterMilesContainer {
+  background-color: white;
+  height: 50px;
+}
+.FooterIcons {
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+.FooterIcons img {
+  float: right;
+  padding: 10px 20px;
+  width: 70px;
+}
+.gifMiles {
+  width: 60%;
+  height: 40%;
+  margin-top: 13%;
+}
+
+.FooterMilesContainer a {
+  text-decoration: none;
+  color: #ff7f2f;
+  font-size: 180%;
+  padding-left: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.FooterMilesContainer a:hover {
+  text-decoration: none;
+  color: #ff7f2f;
+}
+.FooterMilesContainer a:visited {
+  text-decoration: none;
+  color: #ff7f2f;
+}
+.MilesLogout {
+  /* height: 40px; */
+  width: 40%;
+  float: right;
+  bottom: 8%;
+  right: 0%;
+  position: absolute;
+}
+.cerrarSesionMovil {
+  display: none;
+}
+.cerrarSesionMovil input {
+  margin-bottom: 5px;
+}
+.cerrarSesionMovil h3 {
+  color: white;
+  font-weight: 700 !important;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.milesGanadas {
+  width: 50% !important;
+}
+.milesSiguiente {
+  width: 50% !important;
+  float: right;
+}
+.Milesbases a {
+  color: white;
+  text-decoration: underline;
+}
+.Milesbases a:hover {
+  color: white;
+}
+.MilesbasesDesktop {
+  float: right;
+  padding-right: 10px;
+}
+.btn-Milesdesktop {
+  margin-bottom: 20px !important;
+  margin-right: 10px !important;
+}
+
+.MetaIme {
+  width: 50%;
+}
